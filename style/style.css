@@ -1,0 +1,68 @@
+/* COLORS
+    ORANGE: #D2872C
+    GRAY: #766F68
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.h1-content {
+    color: #D2872C;
+}
+
+.right {
+    /* width: 100px; */
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ways {
+    text-decoration: none;
+    color: #766F68;
+    font-weight: bold;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.field-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-content {
+    font-size: 3.5em;
+}
+
+.color-font {
+    color: #766f68;
+}
+
+.btn {
+    background-color: #D2872C;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.img {
+    height: 400px;
+    width: 700px;
+}
